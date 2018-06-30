@@ -1,3 +1,233 @@
-/*
- * Estilos de tu proyecto
- */
+body {
+  width: 1280px;
+  margin: auto;
+  padding: auto;
+  color: #FFFFFF;
+  font-family: 'Montserrat';
+  font-weight: 800;
+  letter-spacing: -1.5;
+}
+
+.alinharEcentralizar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.alinharSpace {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.letraLato {
+  font-family: 'Lato';
+  font-weight: 700;
+  letter-spacing: -1.5;
+}
+
+.colorBlue {
+  color: #2C3E50;
+}
+
+.colorCinza {
+  color: #6C757D;
+}
+
+.fundoAzulClaro {
+  background-color: #18BC9C;
+}
+
+.fundoAzulEscuro {
+  background-color: #2C3E50;
+}
+
+.nomeSecao {
+  font-size: 28px;
+  line-height: 0;
+  letter-spacing: -1.5px;
+}
+
+.estrela {
+  display: flex;
+  align-items: center;
+  width: 230px;
+  line-height: 0;
+  font-size: 30px;
+}
+
+hr {
+  width: 91px;
+  height: 5px;
+  border: none;
+  background-color: #FFFFFF;
+}
+/*--------------------------------------------*/
+nav {
+  height: 80px;
+  font-size: 24px;
+}
+
+.rightMenu {
+  width: 250px;
+  font-size: 14px;
+  list-style-type: none;
+}
+
+/*----------------------------------------------*/
+header {
+  height: 431px;
+  padding: 100px 0px;
+}
+
+#nomao {
+  font-size: 68px;
+}
+
+.atributo{
+  font-size: 25px;
+}
+
+/*----------------------------------------------*/
+.primeiraSecaoPortifolio {
+  height: 792px;
+}
+
+.primeiraSecaoPortifolio div:last-of-type {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.tamanhoImg {
+  width: 316px;
+  height: 227px; 
+  padding: 14px;
+}
+
+/*---------------------------------------------*/
+.segundaSecaoAbout {
+  height: 517px;
+  display: flex;
+  font-size: 30px;
+}
+
+.escritasAbout {
+  display: flex;
+}
+
+.textosLado {
+  width: 350px;
+  height: 155px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 26px;
+  margin: 15px;
+}
+
+#botaoDownload {
+  width: 195px;
+  height: 41px;
+  border: 2px solid #FFFFFF;
+  border-radius: 5px;
+  background-color: transparent;
+  color: #FFFFFF;
+  font-size: 20px;
+}
+
+.icon-download {
+  font-size: 15px;
+  color: #FFFFFF;
+}
+/*----------------------------------------------*/
+.terceiraSecaoContact {
+  height: 800px;
+ }
+
+.preenchimento {
+  width: 655px;
+  font-size: 22px;
+  font-weight: 400;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  line-height: 40px;
+}
+
+.preenchimento label {
+  padding-top: 15px;
+}
+
+.preenchimento input, textarea {
+  border: none;
+  border-bottom: 1px solid #E9ECEF;
+}
+
+input {
+  width: 730px;
+  height: 32px; 
+}
+
+textarea {
+  width: 730px;
+  height: 130px;
+  resize: none;
+  margin-bottom: 20px;
+}
+
+#botaoSend {
+  width: 70px;
+  height: 44px;
+  border: none;
+  border-radius: 10%;
+  color: #FFFFFF;
+  font-size: 18px;
+  font-weight: 700;
+}
+/*----------------------------------------------*/
+.rodape {
+  height: 304px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.location, .around, .aboutFree {
+  width: 300px;
+  height: 230px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 15px;
+}
+
+.nomeDestaque {
+  font-size: 24px
+}
+
+.iconesRodape {
+  font-size: 20px;
+  text-align: center;
+  display: flex;
+}
+
+.circulo {
+  width: 40px;
+  height: 40px;
+  border: 2px solid #FFFFFF;
+  border-radius: 100%;
+  margin: 7px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 0;
+}
+.textoRodape {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+#mudaCor {
+  color: #18BC9C;
+}
