@@ -1,0 +1,41 @@
+[33mcommit 26edf5a25a17ad814d68b1cb1c43e14ed1e845b4[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Fernanda Gava <nanda_gava@hotmail.com>
+Date:   Sat Jun 30 18:33:49 2018 -0300
+
+    freelancer quase pronto
+
+[33mcommit cc13c42887357bd444734244d7641b8d851f2ecc[m
+Author: Ivan Medina <medinadiazivan@gmail.com>
+Date:   Fri Sep 29 12:38:25 2017 -0500
+
+    agrega reto de formularios
+
+[33mcommit dfbea4e6226b939cb836449c1b95ebe6e00a53d2[m
+Author: Ivan Medina <medinadiazivan@gmail.com>
+Date:   Fri Sep 29 12:33:31 2017 -0500
+
+    agrega detalles del reto
+
+[33mcommit 75867f23eeeca1d9b157f57148dd78cab2f09658[m
+Author: Ivan Medina Diaz <medinadiazivan@gmail.com>
+Date:   Fri Sep 29 10:46:58 2017 -0500
+
+    corrige typo
+
+[33mcommit 363ef198dfe646dea47c889c1b5420668302ae8d[m
+Author: Ivan Medina Diaz <medinadiazivan@gmail.com>
+Date:   Fri Sep 29 10:44:17 2017 -0500
+
+    actualiza y corrige formato de markdown
+
+[33mcommit 234b52b434ed4497976978341974acba209ebb99[m
+Author: Ivan Medina <medinadiazivan@gmail.com>
+Date:   Fri Sep 29 10:40:20 2017 -0500
+
+    establece boilerplate base
+
+[33mcommit 220c5c5c15a5d47d09d3bc64f864345cd2300622[m
+Author: Ivan Medina Diaz <medinadiazivan@gmail.com>
+Date:   Tue Sep 26 18:32:19 2017 -0500
+
+    Initial commit

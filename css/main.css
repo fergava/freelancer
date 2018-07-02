@@ -8,48 +8,52 @@ body {
   letter-spacing: -1.5;
 }
 
-.alinharEcentralizar {
+.flexCenter {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.alinharSpace {
+.flexSpaceAround {
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 
-.letraLato {
+.latoLetter {
   font-family: 'Lato';
   font-weight: 700;
   letter-spacing: -1.5;
 }
 
-.colorBlue {
+.letterBlueColor {
   color: #2C3E50;
 }
 
-.colorCinza {
+.letterLightBlueColor {
+  color: #18BC9C;
+}
+
+.letterGrayColor {
   color: #6C757D;
 }
 
-.fundoAzulClaro {
+.lightBlueBackground {
   background-color: #18BC9C;
 }
 
-.fundoAzulEscuro {
+.darkBlueBackground {
   background-color: #2C3E50;
 }
 
-.nomeSecao {
+.sectionName {
   font-size: 28px;
   line-height: 0;
   letter-spacing: -1.5px;
 }
 
-.estrela {
+.star {
   display: flex;
   align-items: center;
   width: 230px;
@@ -67,12 +71,19 @@ hr {
 nav {
   height: 80px;
   font-size: 24px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navAlign {
+  margin-left: 140px;
 }
 
 .rightMenu {
-  width: 250px;
-  font-size: 14px;
+  width: 275px;
+  font-size: 15px;
   list-style-type: none;
+  margin-right: 140px;
 }
 
 /*----------------------------------------------*/
@@ -81,43 +92,45 @@ header {
   padding: 100px 0px;
 }
 
-#nomao {
+#mainName {
   font-size: 68px;
+  margin-bottom: 35px;
 }
 
-.atributo{
+.assignment {
   font-size: 25px;
+  margin-top: 35px;
 }
 
 /*----------------------------------------------*/
-.primeiraSecaoPortifolio {
+.portifolio {
   height: 792px;
 }
 
-.primeiraSecaoPortifolio div:last-of-type {
+.portifolio div:last-of-type {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 
-.tamanhoImg {
+.imgSize {
   width: 316px;
   height: 227px; 
   padding: 14px;
 }
 
 /*---------------------------------------------*/
-.segundaSecaoAbout {
+.about {
   height: 517px;
   display: flex;
   font-size: 30px;
 }
 
-.escritasAbout {
+.aboutContent {
   display: flex;
 }
 
-.textosLado {
+.textContentAbout {
   width: 350px;
   height: 155px;
   font-size: 20px;
@@ -126,7 +139,7 @@ header {
   margin: 15px;
 }
 
-#botaoDownload {
+#downloadButton {
   width: 195px;
   height: 41px;
   border: 2px solid #FFFFFF;
@@ -140,12 +153,12 @@ header {
   font-size: 15px;
   color: #FFFFFF;
 }
-/*----------------------------------------------*/
-.terceiraSecaoContact {
+/*SECTI*/
+.contact {
   height: 800px;
  }
 
-.preenchimento {
+.form {
   width: 655px;
   font-size: 22px;
   font-weight: 400;
@@ -155,11 +168,11 @@ header {
   line-height: 40px;
 }
 
-.preenchimento label {
+.form label {
   padding-top: 15px;
 }
 
-.preenchimento input, textarea {
+.form input, textarea {
   border: none;
   border-bottom: 1px solid #E9ECEF;
 }
@@ -176,7 +189,7 @@ textarea {
   margin-bottom: 20px;
 }
 
-#botaoSend {
+#sendButton {
   width: 70px;
   height: 44px;
   border: none;
@@ -185,8 +198,9 @@ textarea {
   font-size: 18px;
   font-weight: 700;
 }
-/*----------------------------------------------*/
-.rodape {
+/*FOOTER*/
+
+footer {
   height: 304px;
   display: flex;
   flex-direction: column;
@@ -202,17 +216,17 @@ textarea {
   margin: 15px;
 }
 
-.nomeDestaque {
+.footerOptions {
   font-size: 24px
 }
 
-.iconesRodape {
+.iconFooter {
   font-size: 20px;
   text-align: center;
   display: flex;
 }
 
-.circulo {
+.circle {
   width: 40px;
   height: 40px;
   border: 2px solid #FFFFFF;
@@ -223,11 +237,8 @@ textarea {
   justify-content: center;
   line-height: 0;
 }
-.textoRodape {
+
+.footerOptionsText {
   font-size: 20px;
   font-weight: 300;
-}
-
-#mudaCor {
-  color: #18BC9C;
 }
